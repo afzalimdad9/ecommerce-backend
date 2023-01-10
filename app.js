@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 }
 
 
-app.use(cors({origin: '*'}))
+app.use(cors({origin: 'https://ecommerce-afzalimdad9.netlify.app'}))
 app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
